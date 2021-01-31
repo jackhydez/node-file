@@ -5,7 +5,12 @@
 		<link rel="stylesheet" href="src/style.css">
 	</head>
 	<body>
-		<h1>hello</h1>
+		<h1>Upload file</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label>Файл</label><br>
+        <input type="file" name="filedata" /><br><br>
+        <input type="submit" value="Send" />
+      </form>
 		<script src="src/app.js"></script>
 	</body>
 </html>
